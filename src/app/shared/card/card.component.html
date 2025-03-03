@@ -1,0 +1,11 @@
+<article class="card">
+  <div class="img" [style.background-image]="getImageUrl()">
+    <div class="rating-overlay">
+      <span class="star-icon">★</span>
+      <div class="rating-value">3/10</div>
+    </div>
+  </div>
+
+  <h3 class="card-title">{{ data().title }}</h3>
+  <p class="card-description">{{ data().description }}</p>
+</article>

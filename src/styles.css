@@ -47,7 +47,7 @@
   --hover-overlay: rgba(0, 0, 0, 0.05);
   --focus-outline: rgba(229, 9, 20, 0.5);
 
-  --rating-color: #e6b91e;
+  --rating-color: #ffc800;
   --success-color: #2e7d32;
   --error-color: #e50914;
 }
@@ -88,8 +88,8 @@
 }
 
 body {
+  background-color: var(--background-primary);
   font-family: var(--font-primary);
   min-height: 100dvh;
-  background-color: var(--background-primary);
   color: var(--text-primary);
 }

@@ -2,7 +2,7 @@
 import { Component, inject } from '@angular/core';
 import { Router, RouterModule } from '@angular/router';
 import { CommonModule } from '@angular/common';
-import { routeNames } from '../app.routes';
+import { routeNames } from '../../app.routes';
 
 @Component({
   selector: 'app-header',
