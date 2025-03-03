@@ -1,0 +1,32 @@
+<header class="header">
+  <div class="header-container">
+    <div class="logo-container">
+      <a routerLink="/" class="logo"> MovieManage </a>
+    </div>
+
+    <nav class="nav-links">
+      <a routerLink="/dashboard" routerLinkActive="active" class="nav-link">
+        {{ routeNames.dashboard }}
+      </a>
+      <a routerLink="/movies" routerLinkActive="active" class="nav-link">
+        {{ routeNames.movies }}
+      </a>
+      <a routerLink="/favorites" routerLinkActive="active" class="nav-link">
+        {{ routeNames.favorites }}
+      </a>
+      <a routerLink="/categories" routerLinkActive="active" class="nav-link">
+        {{ routeNames.categories }}
+      </a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="theme-toggle" (click)="toggleTheme()">
+        @if (isDarkMode) {
+        <span>☀️</span>
+        } @else {
+        <span>🌙</span>
+        }
+      </button>
+    </div>
+  </div>
+</header>
