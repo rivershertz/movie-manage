@@ -1,9 +1,5 @@
 import { Routes } from '@angular/router';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { MoviesComponent } from './movies/movies.component';
-import { MovieComponent } from './movies/movie/movie.component';
-import { FavoritesComponent } from './favorites/favorites.component';
-import { CategoriesComponent } from './categories/categories.component';
 
 export const routeNames = {
   dashboard: 'Dashboard',
@@ -21,9 +17,30 @@ export const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   {
     path: 'movies',
-    component: MoviesComponent,
-    children: [{ path: ':id', component: MovieComponent }],
+    loadComponent: () =>
+      import('./movies/movies.component').then((mod) => mod.MoviesComponent),
+    children: [
+      {
+        path: ':id',
+        loadComponent: () =>
+          import('./movies/movie/movie.component').then(
+            (mod) => mod.MovieComponent
+          ),
+      },
+    ],
   },
-  { path: 'favorites', component: FavoritesComponent },
-  { path: 'categories', component: CategoriesComponent },
+  {
+    path: 'favorites',
+    loadComponent: () =>
+      import('./favorites/favorites.component').then(
+        (mod) => mod.FavoritesComponent
+      ),
+  },
+  {
+    path: 'categories',
+    loadComponent: () =>
+      import('./categories/categories.component').then(
+        (mod) => mod.CategoriesComponent
+      ),
+  },
 ];
