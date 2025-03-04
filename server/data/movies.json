@@ -10,7 +10,8 @@
     "release_date": "Wed, 06/29/1988",
     "vote_average": 6.9,
     "vote_count": 3960,
-    "adult": 0
+    "adult": 0,
+    "duration": 127
   },
   {
     "id": "af5a1c02-7c32-465e-a1fa-5854a1e0e750",
@@ -23,7 +24,8 @@
     "release_date": "Sun, 04/10/1977",
     "vote_average": 7.3,
     "vote_count": 250,
-    "adult": 0
+    "adult": 0,
+    "duration": 128
   },
   {
     "id": "b2fac217-a3b8-4bce-be4a-2a4a7048f3f4",
@@ -36,7 +38,8 @@
     "release_date": "Fri, 09/05/2014",
     "vote_average": 5.1,
     "vote_count": 271,
-    "adult": 0
+    "adult": 0,
+    "duration": 144
   },
   {
     "id": "23ef192a-d816-48f2-917b-1d46516d4262",
@@ -49,7 +52,8 @@
     "release_date": "Fri, 06/28/1996",
     "vote_average": 5.6,
     "vote_count": 2701,
-    "adult": 0
+    "adult": 0,
+    "duration": 132
   },
   {
     "id": "49f97a1a-7098-411f-ac44-b3e23ac65af7",
@@ -62,7 +66,8 @@
     "release_date": "Wed, 01/10/2024",
     "vote_average": 0,
     "vote_count": 0,
-    "adult": 0
+    "adult": 0,
+    "duration": 107
   },
   {
     "id": "9408b866-e9ac-4c5b-ab2a-8ba53be60f5c",
@@ -75,7 +80,8 @@
     "release_date": "Fri, 11/16/2018",
     "vote_average": 6.8,
     "vote_count": 461,
-    "adult": 0
+    "adult": 0,
+    "duration": 108
   },
   {
     "id": "5ec4902e-22dc-4071-9001-1db74ad52057",
@@ -88,7 +94,8 @@
     "release_date": "Thu, 12/12/1985",
     "vote_average": 6.9,
     "vote_count": 877,
-    "adult": 0
+    "adult": 0,
+    "duration": 106
   },
   {
     "id": "2484219b-7444-4238-a5f5-be9f9570e392",
@@ -101,7 +108,8 @@
     "release_date": "Mon, 10/24/2022",
     "vote_average": 7.8,
     "vote_count": 37,
-    "adult": 0
+    "adult": 0,
+    "duration": 148
   },
   {
     "id": "356a9834-8e7f-41bb-ac49-2fabaa2afe0b",
@@ -114,7 +122,8 @@
     "release_date": "Fri, 12/17/2021",
     "vote_average": 7.2,
     "vote_count": 428,
-    "adult": 0
+    "adult": 0,
+    "duration": 138
   },
   {
     "id": "d98e87cb-2fc6-43a0-bd4f-6f98a5103648",
@@ -127,7 +136,8 @@
     "release_date": "Fri, 02/19/1999",
     "vote_average": 7.6,
     "vote_count": 1121,
-    "adult": 0
+    "adult": 0,
+    "duration": 126
   },
   {
     "id": "b2792bf5-b82e-419a-8336-c86d9928fa84",
@@ -140,7 +150,8 @@
     "release_date": "Fri, 11/04/2016",
     "vote_average": 6.7,
     "vote_count": 870,
-    "adult": 0
+    "adult": 0,
+    "duration": 111
   },
   {
     "id": "67f64e70-2b6b-47e3-86c3-ebdd2e4035f2",
@@ -153,7 +164,8 @@
     "release_date": "Wed, 08/26/1953",
     "vote_average": 7.9,
     "vote_count": 1837,
-    "adult": 0
+    "adult": 0,
+    "duration": 137
   },
   {
     "id": "bddce016-716a-4fd2-9fc6-9cc459b568a6",
@@ -166,7 +178,8 @@
     "release_date": "Fri, 07/31/1987",
     "vote_average": 7.1,
     "vote_count": 1806,
-    "adult": 1
+    "adult": 1,
+    "duration": 113
   },
   {
     "id": "f9b15a37-dfb5-4f12-833b-44bdcefde1d0",
@@ -179,7 +192,8 @@
     "release_date": "Fri, 12/12/1986",
     "vote_average": 5.9,
     "vote_count": 978,
-    "adult": 0
+    "adult": 0,
+    "duration": 132
   },
   {
     "id": "fd97c92e-db8d-43c9-8433-e77ed26511c5",
@@ -192,7 +206,8 @@
     "release_date": "Fri, 10/16/2009",
     "vote_average": 6.5,
     "vote_count": 1708,
-    "adult": 0
+    "adult": 0,
+    "duration": 121
   },
   {
     "id": "4d737a42-6b87-4e33-b45b-e9387fede4ed",
@@ -205,7 +220,8 @@
     "release_date": "Fri, 07/12/2002",
     "vote_average": 7.4,
     "vote_count": 3327,
-    "adult": 0
+    "adult": 0,
+    "duration": 135
   },
   {
     "id": "6d1d677c-c15c-40a5-9a1a-9116c542a93b",
@@ -218,7 +234,8 @@
     "release_date": "Fri, 09/08/2000",
     "vote_average": 6.3,
     "vote_count": 384,
-    "adult": 1
+    "adult": 1,
+    "duration": 105
   },
   {
     "id": "b185547b-4313-4b68-9d77-e047cf4f9595",
@@ -231,7 +248,8 @@
     "release_date": "Fri, 02/06/2004",
     "vote_average": 6.6,
     "vote_count": 2793,
-    "adult": 1
+    "adult": 1,
+    "duration": 116
   },
   {
     "id": "29342530-e372-482d-af93-a1c6ff6d2995",
@@ -244,7 +262,8 @@
     "release_date": "Thu, 08/25/2022",
     "vote_average": 5.1,
     "vote_count": 94,
-    "adult": 0
+    "adult": 0,
+    "duration": 128
   },
   {
     "id": "b0525c57-6f7f-4580-8306-0db50a316cdd",
@@ -257,7 +276,8 @@
     "release_date": "Wed, 06/12/1963",
     "vote_average": 6.2,
     "vote_count": 125,
-    "adult": 0
+    "adult": 0,
+    "duration": 148
   },
   {
     "id": "9f41b7a5-15cb-44c9-88c2-d5306bbe2cef",
@@ -270,7 +290,8 @@
     "release_date": "Wed, 07/03/2024",
     "vote_average": 0,
     "vote_count": 0,
-    "adult": 0
+    "adult": 0,
+    "duration": 135
   },
   {
     "id": "b2cd3648-f265-40f8-bfea-8fd9adb83b8b",
@@ -283,7 +304,8 @@
     "release_date": "Sun, 11/17/2002",
     "vote_average": 6,
     "vote_count": 3212,
-    "adult": 0
+    "adult": 0,
+    "duration": 118
   },
   {
     "id": "ab15d8d7-ea50-43c2-88cf-f5a85d3dfa36",
@@ -296,7 +318,8 @@
     "release_date": "Fri, 10/16/2020",
     "vote_average": 5.7,
     "vote_count": 96,
-    "adult": 0
+    "adult": 0,
+    "duration": 107
   },
   {
     "id": "d6030004-c7cb-4d7d-a9cc-4c69e7149cab",
@@ -309,7 +332,8 @@
     "release_date": "Wed, 04/01/2009",
     "vote_average": 5.8,
     "vote_count": 252,
-    "adult": 0
+    "adult": 0,
+    "duration": 106
   },
   {
     "id": "ece7999d-5d6b-4987-a0be-1367d873d48d",
@@ -322,7 +346,8 @@
     "release_date": "Tue, 02/20/2018",
     "vote_average": 6.2,
     "vote_count": 127,
-    "adult": 0
+    "adult": 0,
+    "duration": 117
   },
   {
     "id": "9882eaa4-1648-46b3-adf2-06685994f10a",
@@ -335,7 +360,8 @@
     "release_date": "Fri, 01/01/2015",
     "vote_average": 7.9,
     "vote_count": 2149,
-    "adult": 0
+    "adult": 0,
+    "duration": 124
   },
   {
     "id": "6e307ab5-14e7-4ae7-9f57-3c1ffdc41c10",
@@ -348,7 +374,8 @@
     "release_date": "Fri, 01/07/2022",
     "vote_average": 5.6,
     "vote_count": 113,
-    "adult": 0
+    "adult": 0,
+    "duration": 143
   },
   {
     "id": "301f3d2f-09d5-447a-a3c3-5af71b78e32b",
@@ -361,7 +388,8 @@
     "release_date": "Fri, 07/21/2023",
     "vote_average": 7.5,
     "vote_count": 60,
-    "adult": 0
+    "adult": 0,
+    "duration": 129
   },
   {
     "id": "92c28aa2-ac20-4c59-83a8-10286a1a98ec",
@@ -374,7 +402,8 @@
     "release_date": "Thu, 09/10/2015",
     "vote_average": 6.3,
     "vote_count": 4387,
-    "adult": 1
+    "adult": 1,
+    "duration": 122
   },
   {
     "id": "d970115c-f34c-4516-94a8-ea7f82a43740",
@@ -387,7 +416,8 @@
     "release_date": "Mon, 08/19/1946",
     "vote_average": 7.1,
     "vote_count": 145,
-    "adult": 1
+    "adult": 1,
+    "duration": 134
   },
   {
     "id": "a65c361a-4640-4b19-9b38-daab305c0d02",
@@ -400,7 +430,8 @@
     "release_date": "Tue, 08/13/1963",
     "vote_average": 6.7,
     "vote_count": 471,
-    "adult": 0
+    "adult": 0,
+    "duration": 141
   },
   {
     "id": "4c9965a7-0fca-4450-91fb-f0a64aba65a7",
@@ -413,7 +444,8 @@
     "release_date": "Sat, 02/11/2006",
     "vote_average": 4.6,
     "vote_count": 111,
-    "adult": 1
+    "adult": 1,
+    "duration": 149
   },
   {
     "id": "0b1d2799-f038-4d80-9d49-bef13cf738b0",
@@ -426,7 +458,8 @@
     "release_date": "Thu, 01/10/2008",
     "vote_average": 6.4,
     "vote_count": 2922,
-    "adult": 0
+    "adult": 0,
+    "duration": 138
   },
   {
     "id": "f80c30da-1c0d-4a46-b376-981100a76678",
@@ -439,7 +472,8 @@
     "release_date": "Thu, 01/24/2008",
     "vote_average": 4,
     "vote_count": 1541,
-    "adult": 0
+    "adult": 0,
+    "duration": 140
   },
   {
     "id": "266e2a87-3197-4211-b396-af759958fe29",
@@ -452,7 +486,8 @@
     "release_date": "Thu, 08/29/2019",
     "vote_average": 6.5,
     "vote_count": 1091,
-    "adult": 0
+    "adult": 0,
+    "duration": 106
   },
   {
     "id": "a61ba092-a646-4c23-81c7-f5e100d5bfa0",
@@ -465,7 +500,8 @@
     "release_date": "Fri, 09/17/1993",
     "vote_average": 7.4,
     "vote_count": 588,
-    "adult": 0
+    "adult": 0,
+    "duration": 137
   },
   {
     "id": "47c72799-ab1b-4c5f-a307-21945a1dbb7b",
@@ -478,7 +514,8 @@
     "release_date": "Thu, 03/17/1988",
     "vote_average": 5.9,
     "vote_count": 93,
-    "adult": 0
+    "adult": 0,
+    "duration": 109
   },
   {
     "id": "a4115440-4b07-4183-a020-296f5d075295",
@@ -491,7 +528,8 @@
     "release_date": "Wed, 06/13/2007",
     "vote_average": 7.9,
     "vote_count": 11008,
-    "adult": 0
+    "adult": 0,
+    "duration": 132
   },
   {
     "id": "4277b385-cd6c-41d3-a76c-1aacdb2f7a9e",
@@ -504,7 +542,8 @@
     "release_date": "Thu, 04/21/2005",
     "vote_average": 6.8,
     "vote_count": 1195,
-    "adult": 0
+    "adult": 0,
+    "duration": 145
   },
   {
     "id": "c7ba3f65-797c-4c06-86ca-05f1557a9c5a",
@@ -517,7 +556,8 @@
     "release_date": "Sun, 09/10/2006",
     "vote_average": 6.4,
     "vote_count": 151,
-    "adult": 1
+    "adult": 1,
+    "duration": 106
   },
   {
     "id": "fd74a8ae-6ec2-4c16-86e9-c09b75a83b35",
@@ -530,7 +570,8 @@
     "release_date": "Wed, 02/18/1953",
     "vote_average": 7.1,
     "vote_count": 379,
-    "adult": 0
+    "adult": 0,
+    "duration": 127
   },
   {
     "id": "0b3b6b3c-9cfc-4b7e-b7a5-0aafe033fe7e",
@@ -543,7 +584,8 @@
     "release_date": "Fri, 12/01/1995",
     "vote_average": 6.5,
     "vote_count": 338,
-    "adult": 0
+    "adult": 0,
+    "duration": 127
   },
   {
     "id": "e4cd7433-5b5a-4bcf-aeed-355f446ceca3",
@@ -556,7 +598,8 @@
     "release_date": "Wed, 04/13/1994",
     "vote_average": 6.7,
     "vote_count": 598,
-    "adult": 0
+    "adult": 0,
+    "duration": 143
   },
   {
     "id": "0b036ef0-5931-425a-ba3a-2ed8be43a9cc",
@@ -569,7 +612,8 @@
     "release_date": "Wed, 12/08/1993",
     "vote_average": 6.3,
     "vote_count": 288,
-    "adult": 0
+    "adult": 0,
+    "duration": 136
   },
   {
     "id": "bdc20438-5f82-4640-8b07-52de7b02c4ca",
@@ -582,7 +626,8 @@
     "release_date": "Sat, 09/27/1997",
     "vote_average": 7.1,
     "vote_count": 1556,
-    "adult": 0
+    "adult": 0,
+    "duration": 102
   },
   {
     "id": "6fd7b5d3-e937-426e-b2f7-8405110d2b99",
@@ -595,7 +640,8 @@
     "release_date": "Wed, 11/21/2007",
     "vote_average": 7.4,
     "vote_count": 2527,
-    "adult": 0
+    "adult": 0,
+    "duration": 103
   },
   {
     "id": "106d443c-f31e-4149-8118-093d812891d0",
@@ -608,7 +654,8 @@
     "release_date": "Thu, 04/21/2011",
     "vote_average": 7.4,
     "vote_count": 223,
-    "adult": 0
+    "adult": 0,
+    "duration": 113
   },
   {
     "id": "54a85564-c9f2-4f43-aecf-ecd1ed7bd687",
@@ -621,7 +668,8 @@
     "release_date": "Wed, 05/25/2016",
     "vote_average": 6.5,
     "vote_count": 6040,
-    "adult": 0
+    "adult": 0,
+    "duration": 141
   },
   {
     "id": "0c5d9c33-9406-478f-bc7a-c5bae19bedf4",
@@ -634,7 +682,8 @@
     "release_date": "Thu, 03/01/1990",
     "vote_average": 4.2,
     "vote_count": 28,
-    "adult": 0
+    "adult": 0,
+    "duration": 134
   },
   {
     "id": "311b56a4-602c-40fd-8b28-9a7ddc77a354",
@@ -647,7 +696,8 @@
     "release_date": "Thu, 11/02/2000",
     "vote_average": 5.8,
     "vote_count": 3863,
-    "adult": 1
+    "adult": 1,
+    "duration": 136
   },
   {
     "id": "9f500c13-dee3-408d-9cba-5cbc3a60031b",
@@ -660,7 +710,8 @@
     "release_date": "Fri, 12/15/1939",
     "vote_average": 8,
     "vote_count": 3703,
-    "adult": 0
+    "adult": 0,
+    "duration": 128
   },
   {
     "id": "dea1e2a3-55ed-4699-b5b7-fde85ea81349",
@@ -673,7 +724,8 @@
     "release_date": "Tue, 11/10/1987",
     "vote_average": 6,
     "vote_count": 207,
-    "adult": 0
+    "adult": 0,
+    "duration": 102
   },
   {
     "id": "81915e7d-61f1-4d67-a81d-4f9d03010ffa",
@@ -686,7 +738,8 @@
     "release_date": "Thu, 08/08/2019",
     "vote_average": 8.2,
     "vote_count": 1309,
-    "adult": 0
+    "adult": 0,
+    "duration": 138
   },
   {
     "id": "d610d829-6cf3-4b88-a96a-e2ea61209776",
@@ -699,7 +752,8 @@
     "release_date": "Fri, 05/13/2022",
     "vote_average": 4.2,
     "vote_count": 16,
-    "adult": 0
+    "adult": 0,
+    "duration": 124
   },
   {
     "id": "ce33af5e-ad9e-4267-adf1-ca99dcff4ae5",
@@ -712,7 +766,8 @@
     "release_date": "Thu, 06/19/2014",
     "vote_average": 6.3,
     "vote_count": 226,
-    "adult": 0
+    "adult": 0,
+    "duration": 124
   },
   {
     "id": "42121cf4-1bc4-4fe0-859c-a4f9b25352f5",
@@ -725,7 +780,8 @@
     "release_date": "Thu, 02/03/2022",
     "vote_average": 6.4,
     "vote_count": 2673,
-    "adult": 0
+    "adult": 0,
+    "duration": 116
   },
   {
     "id": "3ef6b8dc-7de4-4d91-8137-811cd84b742a",
@@ -738,7 +794,8 @@
     "release_date": "Fri, 11/21/2008",
     "vote_average": 6.5,
     "vote_count": 5601,
-    "adult": 0
+    "adult": 0,
+    "duration": 104
   },
   {
     "id": "1983189a-0c67-4a01-a196-e0675655906e",
@@ -751,7 +808,8 @@
     "release_date": "Wed, 05/24/2000",
     "vote_average": 6.1,
     "vote_count": 6160,
-    "adult": 0
+    "adult": 0,
+    "duration": 135
   },
   {
     "id": "b13ea56e-4529-4d63-9b88-dcedcec0a0a5",
@@ -764,7 +822,8 @@
     "release_date": "Fri, 08/29/2003",
     "vote_average": 7.2,
     "vote_count": 947,
-    "adult": 0
+    "adult": 0,
+    "duration": 125
   },
   {
     "id": "b2b8326a-1abe-47d0-b7cb-3b1271ddf2dd",
@@ -777,7 +836,8 @@
     "release_date": "Fri, 10/24/2008",
     "vote_average": 6.1,
     "vote_count": 106,
-    "adult": 1
+    "adult": 1,
+    "duration": 114
   },
   {
     "id": "e03d0abe-6c9f-444a-a3d6-d98833377c46",
@@ -790,7 +850,8 @@
     "release_date": "Sun, 11/01/1987",
     "vote_average": 5.8,
     "vote_count": 102,
-    "adult": 0
+    "adult": 0,
+    "duration": 105
   },
   {
     "id": "e8878cff-b671-4526-af9d-bd20f2316825",
@@ -803,7 +864,8 @@
     "release_date": "Wed, 08/21/2002",
     "vote_average": 5.1,
     "vote_count": 205,
-    "adult": 0
+    "adult": 0,
+    "duration": 146
   },
   {
     "id": "a7a5e6ce-214c-4dfc-b9b6-6d514ed6ad36",
@@ -816,7 +878,8 @@
     "release_date": "Fri, 12/10/1993",
     "vote_average": 6.1,
     "vote_count": 937,
-    "adult": 0
+    "adult": 0,
+    "duration": 107
   },
   {
     "id": "9d1c8230-d862-4d4f-815d-55b3624df41a",
@@ -829,7 +892,8 @@
     "release_date": "Fri, 07/01/2016",
     "vote_average": 5.4,
     "vote_count": 223,
-    "adult": 0
+    "adult": 0,
+    "duration": 147
   },
   {
     "id": "22312bb9-85e7-4a54-980c-4fa0dd03450a",
@@ -842,7 +906,8 @@
     "release_date": "Fri, 08/30/1996",
     "vote_average": 5.8,
     "vote_count": 170,
-    "adult": 0
+    "adult": 0,
+    "duration": 142
   },
   {
     "id": "b4fdeabb-8942-474b-8f45-3e333bd1d2b8",
@@ -855,7 +920,8 @@
     "release_date": "Wed, 07/17/2013",
     "vote_average": 6.4,
     "vote_count": 5803,
-    "adult": 1
+    "adult": 1,
+    "duration": 125
   },
   {
     "id": "351e7cf3-9bc1-40c2-b66f-5a6b08693cc1",
@@ -868,7 +934,8 @@
     "release_date": "Thu, 01/13/2011",
     "vote_average": 6.5,
     "vote_count": 2962,
-    "adult": 0
+    "adult": 0,
+    "duration": 117
   },
   {
     "id": "dd08bf33-a0f6-4a26-9de0-49fc327fa176",
@@ -881,7 +948,8 @@
     "release_date": "Fri, 05/31/2019",
     "vote_average": 6.6,
     "vote_count": 1247,
-    "adult": 1
+    "adult": 1,
+    "duration": 130
   },
   {
     "id": "5317f63c-b356-4fe9-97a3-3c515e275de2",
@@ -894,7 +962,8 @@
     "release_date": "Fri, 09/24/2021",
     "vote_average": 6.4,
     "vote_count": 2324,
-    "adult": 0
+    "adult": 0,
+    "duration": 101
   },
   {
     "id": "d554213c-ed14-4e53-a096-dabaff24d654",
@@ -907,7 +976,8 @@
     "release_date": "Tue, 02/17/2009",
     "vote_average": 4.9,
     "vote_count": 83,
-    "adult": 1
+    "adult": 1,
+    "duration": 127
   },
   {
     "id": "ca2352bb-f610-4781-adeb-afbf096c7989",
@@ -920,7 +990,8 @@
     "release_date": "Sun, 09/30/2018",
     "vote_average": 6.6,
     "vote_count": 59,
-    "adult": 1
+    "adult": 1,
+    "duration": 112
   },
   {
     "id": "eb755480-4caf-4e33-a639-81a858fcc2f8",
@@ -933,7 +1004,8 @@
     "release_date": "Tue, 10/18/2016",
     "vote_average": 6.2,
     "vote_count": 591,
-    "adult": 0
+    "adult": 0,
+    "duration": 119
   },
   {
     "id": "e7608011-d7c7-4b9a-91d9-ba0837fb1a01",
@@ -946,7 +1018,8 @@
     "release_date": "Fri, 11/02/1962",
     "vote_average": 7,
     "vote_count": 408,
-    "adult": 1
+    "adult": 1,
+    "duration": 144
   },
   {
     "id": "43f7c6d4-bfe1-4e33-8603-4877821ddcf5",
@@ -959,7 +1032,8 @@
     "release_date": "Wed, 08/09/2023",
     "vote_average": 8.1,
     "vote_count": 1070,
-    "adult": 0
+    "adult": 0,
+    "duration": 112
   },
   {
     "id": "9547c1d7-2459-4b58-8b50-eab9c761e7b9",
@@ -972,7 +1046,8 @@
     "release_date": "Fri, 01/24/2003",
     "vote_average": 5.5,
     "vote_count": 537,
-    "adult": 0
+    "adult": 0,
+    "duration": 106
   },
   {
     "id": "900599f4-4758-4c4e-9e5c-fafe7448d0bc",
@@ -985,7 +1060,8 @@
     "release_date": "Mon, 07/31/2023",
     "vote_average": 6.9,
     "vote_count": 11,
-    "adult": 0
+    "adult": 0,
+    "duration": 100
   },
   {
     "id": "4cb2f44a-83ae-4b69-8596-84c0bf281c4f",
@@ -998,7 +1074,8 @@
     "release_date": "Mon, 10/18/1976",
     "vote_average": 6.5,
     "vote_count": 220,
-    "adult": 0
+    "adult": 0,
+    "duration": 102
   },
   {
     "id": "6e93a425-ee1a-48e4-9aa5-125197e1e303",
@@ -1011,7 +1088,8 @@
     "release_date": "Fri, 03/19/1999",
     "vote_average": 6.6,
     "vote_count": 663,
-    "adult": 0
+    "adult": 0,
+    "duration": 102
   },
   {
     "id": "4a51a95e-45d7-42e5-b756-d8fd4ccbc6fd",
@@ -1024,7 +1102,8 @@
     "release_date": "Fri, 10/07/2022",
     "vote_average": 5.9,
     "vote_count": 86,
-    "adult": 0
+    "adult": 0,
+    "duration": 127
   },
   {
     "id": "60e2a31d-a3d7-439e-803e-843820408829",
@@ -1037,7 +1116,8 @@
     "release_date": "Fri, 10/13/2023",
     "vote_average": 7,
     "vote_count": 3,
-    "adult": 0
+    "adult": 0,
+    "duration": 103
   },
   {
     "id": "e95cff23-f6de-470d-b395-266d0dd2006d",
@@ -1050,7 +1130,8 @@
     "release_date": "Tue, 06/19/1962",
     "vote_average": 6.6,
     "vote_count": 207,
-    "adult": 0
+    "adult": 0,
+    "duration": 122
   },
   {
     "id": "b6020e0c-e73f-44e6-84d7-c9638ca872b6",
@@ -1063,7 +1144,8 @@
     "release_date": "Tue, 10/01/1985",
     "vote_average": 7.1,
     "vote_count": 125,
-    "adult": 1
+    "adult": 1,
+    "duration": 123
   },
   {
     "id": "6007925b-eebb-4765-8db6-efad9897de19",
@@ -1076,7 +1158,8 @@
     "release_date": "Tue, 01/20/2004",
     "vote_average": 6.9,
     "vote_count": 401,
-    "adult": 0
+    "adult": 0,
+    "duration": 106
   },
   {
     "id": "1b752ff2-11c3-4188-a7ed-73cc8402301c",
@@ -1089,7 +1172,8 @@
     "release_date": "Tue, 06/07/2011",
     "vote_average": 5.8,
     "vote_count": 105,
-    "adult": 0
+    "adult": 0,
+    "duration": 101
   },
   {
     "id": "ed2cfca3-35f5-4033-a161-4861af2e2232",
@@ -1102,7 +1186,8 @@
     "release_date": "Fri, 10/25/2002",
     "vote_average": 4.9,
     "vote_count": 153,
-    "adult": 1
+    "adult": 1,
+    "duration": 101
   },
   {
     "id": "3d779799-132f-41f5-8d15-da3178a1354c",
@@ -1115,7 +1200,8 @@
     "release_date": "Thu, 03/15/2012",
     "vote_average": 6.5,
     "vote_count": 1492,
-    "adult": 0
+    "adult": 0,
+    "duration": 120
   },
   {
     "id": "03b6b570-c91f-453a-bc54-6d6f20dfa385",
@@ -1128,7 +1214,8 @@
     "release_date": "Wed, 11/06/1974",
     "vote_average": 6.7,
     "vote_count": 105,
-    "adult": 1
+    "adult": 1,
+    "duration": 116
   },
   {
     "id": "971b6c2b-85f0-45d8-93b2-ccc7cdd52213",
@@ -1141,7 +1228,8 @@
     "release_date": "Fri, 11/20/1981",
     "vote_average": 7.1,
     "vote_count": 130,
-    "adult": 0
+    "adult": 0,
+    "duration": 119
   },
   {
     "id": "319115c6-ccad-4461-b0f0-89cf2ef4f9a6",
@@ -1154,7 +1242,8 @@
     "release_date": "Fri, 06/03/1983",
     "vote_average": 6.4,
     "vote_count": 565,
-    "adult": 0
+    "adult": 0,
+    "duration": 139
   },
   {
     "id": "22989401-86df-4a52-a91a-27b9470d8028",
@@ -1167,7 +1256,8 @@
     "release_date": "Fri, 11/17/1989",
     "vote_average": 7.4,
     "vote_count": 7342,
-    "adult": 1
+    "adult": 1,
+    "duration": 113
   },
   {
     "id": "416d5da3-d248-4643-9ea2-3047602139ae",
@@ -1180,7 +1270,8 @@
     "release_date": "Tue, 06/03/2014",
     "vote_average": 5.9,
     "vote_count": 233,
-    "adult": 0
+    "adult": 0,
+    "duration": 131
   },
   {
     "id": "5a6a83ee-e104-4717-bb5e-cec7c546a043",
@@ -1193,7 +1284,8 @@
     "release_date": "Thu, 02/04/1993",
     "vote_average": 6,
     "vote_count": 650,
-    "adult": 0
+    "adult": 0,
+    "duration": 101
   },
   {
     "id": "8ba48363-f802-46bf-8fd0-151b56abe6d3",
@@ -1206,7 +1298,8 @@
     "release_date": "Sun, 06/21/1998",
     "vote_average": 4,
     "vote_count": 143,
-    "adult": 0
+    "adult": 0,
+    "duration": 102
   },
   {
     "id": "2c5f2148-ec0f-4d5b-838e-6e9fca685743",
@@ -1219,7 +1312,8 @@
     "release_date": "Mon, 12/12/2016",
     "vote_average": 7,
     "vote_count": 2416,
-    "adult": 1
+    "adult": 1,
+    "duration": 110
   },
   {
     "id": "8b5a84ae-95a2-442c-bc08-932b6a1d582a",
@@ -1232,7 +1326,8 @@
     "release_date": "Fri, 01/18/2013",
     "vote_average": 5.9,
     "vote_count": 1366,
-    "adult": 1
+    "adult": 1,
+    "duration": 126
   },
   {
     "id": "77a832ba-69a1-4c47-aa40-11f743a8bac8",
@@ -1245,7 +1340,8 @@
     "release_date": "Thu, 07/11/2013",
     "vote_average": 6.1,
     "vote_count": 3938,
-    "adult": 0
+    "adult": 0,
+    "duration": 121
   },
   {
     "id": "56b649e8-9266-463e-ae1c-f7d414f446ab",
@@ -1258,7 +1354,8 @@
     "release_date": "Tue, 07/28/2009",
     "vote_average": 6.9,
     "vote_count": 396,
-    "adult": 0
+    "adult": 0,
+    "duration": 116
   },
   {
     "id": "b4bbfc12-51cd-447e-a187-aff4b5ee074e",
@@ -1271,7 +1368,8 @@
     "release_date": "Sun, 09/11/2005",
     "vote_average": 6.1,
     "vote_count": 138,
-    "adult": 0
+    "adult": 0,
+    "duration": 150
   },
   {
     "id": "8cf4de82-4dd8-4348-b84f-5d3982e62828",
@@ -1284,7 +1382,8 @@
     "release_date": "Sun, 12/13/2020",
     "vote_average": 7.5,
     "vote_count": 2802,
-    "adult": 0
+    "adult": 0,
+    "duration": 136
   },
   {
     "id": "012e58b3-7410-42ae-852c-716680b7b3ca",
@@ -1297,6 +1396,7 @@
     "release_date": "Sun, 10/16/2005",
     "vote_average": 5.2,
     "vote_count": 264,
-    "adult": 0
+    "adult": 0,
+    "duration": 117
   }
 ]

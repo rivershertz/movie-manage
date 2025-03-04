@@ -10,4 +10,5 @@ export type Movie = {
   vote_average: number;
   vote_count: number;
   adult: 0 | 1;
+  duration: number;
 };

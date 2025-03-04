@@ -3,11 +3,12 @@ import { ActivatedRoute } from '@angular/router';
 import { Movie } from '../movies.model';
 import { MoviesService } from '../movies.service';
 import { DatePipe, UpperCasePipe } from '@angular/common';
-import { StarsPipe } from '../stars.pipe';
+import { StarsPipe } from '../pipes/stars.pipe';
+import { TimePipe } from '../pipes/time.pipe';
 
 @Component({
   selector: 'app-movie',
-  imports: [DatePipe, StarsPipe, UpperCasePipe],
+  imports: [DatePipe, StarsPipe, UpperCasePipe, TimePipe],
   templateUrl: './movie.component.html',
   styleUrl: './movie.component.css',
 })

@@ -1,6 +1,6 @@
 import { Component, input } from '@angular/core';
 import { CardData } from './card.model';
-import { StarsPipe } from '../../movies/stars.pipe';
+import { StarsPipe } from '../../movies/pipes/stars.pipe';
 import { HighlightDirective } from '../../movies/highlight.directive';
 
 @Component({
