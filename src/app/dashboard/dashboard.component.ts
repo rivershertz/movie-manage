@@ -4,10 +4,12 @@ import { CardGridComponent } from '../shared/card-grid/card-grid.component';
 import { MovieCardComponent } from '../movies/movie-card/movie-card.component';
 import { MoviesService } from '../movies/movies.service';
 import { Movie } from '../movies/movies.model';
+import { JsonPipe } from '@angular/common';
+import { map } from 'rxjs';
 
 @Component({
   selector: 'app-dashboard',
-  imports: [CardComponent, CardGridComponent, MovieCardComponent],
+  imports: [CardComponent, CardGridComponent, MovieCardComponent, JsonPipe],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css',
 })
@@ -18,6 +20,7 @@ export class DashboardComponent implements OnInit {
   ngOnInit(): void {
     this.moviesService
       .getMovies('/movies', 'failed to fetch movies', 5)
+      .pipe(map((res) => res.movies))
       .subscribe((movies) => {
         this.movies.set(movies);
       });

@@ -12,8 +12,11 @@ export class MoviesService {
   httpClient = inject(HttpClient);
 
   getMovies(route: string, errorMessage: string, limit?: number) {
-    return this.httpClient.get<Movie[]>(`${this.BASE_URL}${route}`, {
-      params: { ...(limit && { limit }) },
-    });
+    return this.httpClient.get<{ movies: Movie[] }>(
+      `${this.BASE_URL}${route}`,
+      {
+        params: { ...(limit && { limit }) },
+      }
+    );
   }
 }

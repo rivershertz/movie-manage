@@ -93,3 +93,13 @@ body {
   min-height: 100dvh;
   color: var(--text-primary);
 }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.fallback {
+  text-align: center;
+  color: var(--text-tertiary);
+}
