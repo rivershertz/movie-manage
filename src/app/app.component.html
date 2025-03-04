@@ -1,2 +1,9 @@
 <app-header />
+@if(error()) {
+<div class="fallback error">
+  <h2>Something went wrong</h2>
+  <p>{{ error() }}</p>
+</div>
+} @else {
 <router-outlet />
+}

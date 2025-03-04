@@ -1,6 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { HeaderComponent } from './shared/header/header.component';
+import { ErrorService } from './error.service';
 
 @Component({
   selector: 'app-root',
@@ -10,4 +11,5 @@ import { HeaderComponent } from './shared/header/header.component';
 })
 export class AppComponent {
   title = 'movie-manage';
+  error = inject(ErrorService).error;
 }
