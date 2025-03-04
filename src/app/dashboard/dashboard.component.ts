@@ -4,12 +4,11 @@ import { CardGridComponent } from '../shared/card-grid/card-grid.component';
 import { MovieCardComponent } from '../movies/movie-card/movie-card.component';
 import { MoviesService } from '../movies/movies.service';
 import { Movie } from '../movies/movies.model';
-import { JsonPipe } from '@angular/common';
 import { map } from 'rxjs';
 
 @Component({
   selector: 'app-dashboard',
-  imports: [CardComponent, CardGridComponent, MovieCardComponent, JsonPipe],
+  imports: [CardComponent, CardGridComponent, MovieCardComponent],
   templateUrl: './dashboard.component.html',
   styleUrl: './dashboard.component.css',
 })
