@@ -18,7 +18,7 @@
   position: relative;
   overflow: hidden;
   cursor: pointer;
-  transition: transform 0.3s ease;
+  transition: all 0.1s ease;
 }
 
 .card-title {
@@ -59,7 +59,7 @@
   z-index: 1;
 }
 
-.card:hover .rating-overlay {
+.img:hover .rating-overlay {
   opacity: 1;
 }
 
