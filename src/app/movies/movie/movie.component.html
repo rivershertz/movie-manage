@@ -35,12 +35,8 @@
 
         <div class="movie-actions">
           <button class="btn-watch">Watch Now</button>
-          <button
-            class="btn-favorite"
-            (click)="onAddToFavorites()"
-            [disabled]="isInFavorites()"
-          >
-            {{ isInFavorites() ? "Added To Favorites" : "Add to Favorites" }}
+          <button class="btn-favorite" (click)="onToggleFavorite()">
+            {{ isInFavorites() ? "Remove From Favorites" : "Add to Favorites" }}
           </button>
         </div>
       </div>

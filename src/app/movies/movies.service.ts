@@ -63,4 +63,18 @@ export class MoviesService {
         })
       );
   }
+
+  removeFromFavorites(id: string) {
+    return this.httpClient
+      .delete<{ favorites: Movie[] }>(`${this.BASE_URL}/favorites/${id}`)
+      .pipe(
+        map((res) => res.favorites),
+        tap({
+          error: () => {
+            this.errorService.error.set('failed to add movie to favorites');
+          },
+          next: (favorites) => this._favorites.set(favorites),
+        })
+      );
+  }
 }

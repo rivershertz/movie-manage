@@ -27,7 +27,11 @@ export class MovieComponent implements OnInit {
     });
   }
 
-  onAddToFavorites() {
-    this.moviesService.addToFavorites(this.movie().id).subscribe();
+  onToggleFavorite() {
+    if (this.isInFavorites()) {
+      this.moviesService.removeFromFavorites(this.movie().id).subscribe();
+    } else {
+      this.moviesService.addToFavorites(this.movie().id).subscribe();
+    }
   }
 }

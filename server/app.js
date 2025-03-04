@@ -79,7 +79,7 @@ app.delete("/favorites/:id", async (req, res) => {
   const favoritesFileContent = await fs.readFile("./data/favorites.json");
   const favoritesData = JSON.parse(favoritesFileContent);
 
-  const movieIndex = favoritesData.findIndex((place) => place.id === movieId);
+  const movieIndex = favoritesData.findIndex((movie) => movie.id === movieId);
 
   let updatedFavorites = favoritesData;
 
