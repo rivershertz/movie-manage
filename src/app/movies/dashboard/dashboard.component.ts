@@ -1,10 +1,11 @@
 import { Component, inject, OnInit, signal } from '@angular/core';
-import { CardComponent } from '../shared/card/card.component';
-import { CardGridComponent } from '../shared/card-grid/card-grid.component';
-import { MovieCardComponent } from '../movies/movie-card/movie-card.component';
-import { MoviesService } from '../movies/movies.service';
-import { Movie } from '../movies/movies.model';
+
 import { map } from 'rxjs';
+import { CardComponent } from '../../shared/card/card.component';
+import { CardGridComponent } from '../../shared/card-grid/card-grid.component';
+import { MovieCardComponent } from '../movie-card/movie-card.component';
+import { MoviesService } from '../movies.service';
+import { Movie } from '../movies.model';
 
 @Component({
   selector: 'app-dashboard',
