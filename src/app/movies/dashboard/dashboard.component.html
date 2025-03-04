@@ -1,22 +1,6 @@
 <section>
   <h1>most viewed</h1>
-  @if (movies().length > 0) {
-  <app-card-grid>
-    @for(movie of movies(); track movie.id) {
-    <app-movie-card [id]="movie.id">
-      <app-card
-        [data]="{
-          title: movie.original_title,
-          description: movie.overview,
-          imageUrl: movie.poster_path,
-          rating: movie.vote_average
-        }"
-      />
-    </app-movie-card>
-    }
-  </app-card-grid>
-  } @else {
-  <p class="fallback">No movies to show</p>
-
-  }
+  <app-movie-grid [list]="movies()"
+    ><p class="fallback">No movies to show</p>
+  </app-movie-grid>
 </section>

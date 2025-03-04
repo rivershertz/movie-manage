@@ -3,13 +3,11 @@ import { RouterOutlet } from '@angular/router';
 import { MoviesService } from './movies.service';
 import { Movie } from './movies.model';
 import { map } from 'rxjs';
-import { CardGridComponent } from '../shared/card-grid/card-grid.component';
-import { MovieCardComponent } from './movie-card/movie-card.component';
-import { CardComponent } from '../shared/card/card.component';
+import { MovieGridComponent } from './movie-grid/movie-grid.component';
 
 @Component({
   selector: 'app-movies',
-  imports: [RouterOutlet, CardGridComponent, MovieCardComponent, CardComponent],
+  imports: [RouterOutlet, MovieGridComponent],
   templateUrl: './movies.component.html',
   styleUrl: './movies.component.css',
 })
@@ -19,7 +17,7 @@ export class MoviesComponent implements OnInit {
 
   ngOnInit(): void {
     this.moviesService
-      .getMovies('/movies', 'failed to fetch movies')
+      .getMovies<{ movies: Movie[] }>('/movies', 'failed to fetch movies')
       .pipe(map((res) => res.movies))
       .subscribe((movies) => {
         this.movies.set(movies);

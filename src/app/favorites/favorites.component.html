@@ -1,1 +1,4 @@
-<p>favorites works!</p>
+<app-movie-grid [list]="favorites()">
+  <p class="fallback">You don't have any favorites yet</p>
+  <a routerLink="/movies">Go Add Favorites</a>
+</app-movie-grid>
