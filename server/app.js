@@ -29,6 +29,21 @@ app.get("/movies", async (req, res) => {
     .json({ movies: limit ? moviesData.splice(0, limit) : moviesData });
 });
 
+app.get("/movies/:id", async (req, res) => {
+  const { id } = req.params;
+  const fileContent = await fs.readFile("./data/movies.json");
+
+  const moviesData = JSON.parse(fileContent);
+
+  const movie = moviesData.find((m) => m.id === id);
+
+  if (!movie) {
+    res.status(404).send("movie not found");
+  }
+
+  res.status(200).json({ movie });
+});
+
 app.get("/favorites", async (req, res) => {
   const fileContent = await fs.readFile("./data/favorites.json");
 
@@ -50,7 +65,7 @@ app.put("/favorites", async (req, res) => {
 
   let updatedFavorites = favorites;
 
-  if (!favorites.some((p) => p.id === movie.id)) {
+  if (!favorites.some((m) => m.id === movie.id)) {
     updatedFavorites = [...favorites, movie];
   }
 

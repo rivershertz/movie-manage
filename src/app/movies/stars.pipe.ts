@@ -4,7 +4,8 @@ import { Pipe, PipeTransform } from '@angular/core';
   name: 'stars',
 })
 export class StarsPipe implements PipeTransform {
-  transform(rating: number): unknown {
+  transform(rating?: number): undefined | string {
+    if (rating === undefined) return;
     if (rating === 0) return '☆'.repeat(5);
 
     const starCount = Math.round(rating / 2);

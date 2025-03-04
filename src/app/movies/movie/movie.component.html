@@ -1,1 +1,62 @@
-<p>movie works!</p>
+<div class="movie-detail">
+  <div class="backdrop-container">
+    <img
+      [src]="movie().backdrop_path"
+      [alt]="movie().original_title + ' backdrop'"
+      class="backdrop-image"
+    />
+    <div class="backdrop-overlay"></div>
+  </div>
+
+  <div class="movie-content">
+    <div class="movie-header">
+      <div class="poster-container">
+        <img
+          [src]="movie().poster_path"
+          [alt]="movie().original_title + ' poster'"
+          class="poster-image"
+        />
+      </div>
+
+      <div class="movie-info">
+        <h1 class="movie-title">{{ movie().original_title }}</h1>
+
+        <div class="movie-meta">
+          <span class="release-date">
+            {{ movie().release_date | date : "mediumDate" }}
+          </span>
+          <span class="rating">
+            <span class="stars">{{ movie().vote_average | stars }}</span>
+            <span class="vote-count">({{ movie().vote_count }} votes)</span>
+          </span>
+        </div>
+
+        <p class="movie-overview">{{ movie().overview }}</p>
+
+        <div class="movie-actions">
+          <button class="btn-watch">Watch Now</button>
+          <button
+            class="btn-favorite"
+            (click)="onAddToFavorites()"
+            [disabled]="isInFavorites()"
+          >
+            {{ isInFavorites() ? "Added To Favorites" : "Add to Favorites" }}
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="additional-details">
+      <div class="detail-section">
+        <h2>Movie Information</h2>
+        <dl>
+          <dt>Original Language</dt>
+          <dd>{{ movie().original_language | uppercase }}</dd>
+
+          <dt>Movie ID</dt>
+          <dd>{{ movie().movie_id }}</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+</div>

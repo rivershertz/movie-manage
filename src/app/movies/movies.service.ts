@@ -40,4 +40,27 @@ export class MoviesService {
       })
     );
   }
+
+  getMovieById(id: string) {
+    return this.getMovies<{ movie: Movie }>(
+      '/movies/' + id,
+      'failed to fetch movie'
+    ).pipe(map((res) => res.movie));
+  }
+
+  addToFavorites(id: string) {
+    return this.httpClient
+      .put<{ favorites: Movie[] }>(`${this.BASE_URL}/favorites`, {
+        movieId: id,
+      })
+      .pipe(
+        map((res) => res.favorites),
+        tap({
+          error: () => {
+            this.errorService.error.set('failed to add movie to favorites');
+          },
+          next: (favorites) => this._favorites.set(favorites),
+        })
+      );
+  }
 }
