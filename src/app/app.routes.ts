@@ -1,6 +1,5 @@
 import { Routes } from '@angular/router';
-import { DashboardComponent } from './dashboard/dashboard.component';
-import { MovieComponent } from './movies/movie/movie.component';
+import { DashboardComponent } from './movies/dashboard/dashboard.component';
 
 export const routeNames = {
   dashboard: 'Dashboard',
@@ -47,6 +46,13 @@ export const routes: Routes = [
     loadComponent: () =>
       import('./categories/categories.component').then(
         (mod) => mod.CategoriesComponent
+      ),
+  },
+  {
+    path: '**',
+    loadComponent: () =>
+      import('./not-found/not-found.component').then(
+        (mod) => mod.NotFoundComponent
       ),
   },
 ];
