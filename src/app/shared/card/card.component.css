@@ -47,6 +47,7 @@
   background: linear-gradient(
     0deg,
     var(--background-primary) 0%,
+    var(--background-primary) 30%,
     rgba(0, 0, 0, 0) 100%
   );
   display: flex;

@@ -94,6 +94,13 @@ body {
   color: var(--text-primary);
 }
 
+h1 {
+  text-transform: capitalize;
+  font-size: var(--font-size-4xl);
+  margin: 2rem 0;
+  text-align: center;
+}
+
 a {
   text-decoration: none;
   color: inherit;
