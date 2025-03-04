@@ -18,9 +18,14 @@ export const routes: Routes = [
   { path: 'dashboard', component: DashboardComponent },
   {
     path: 'movies',
-    loadComponent: () =>
-      import('./movies/movies.component').then((mod) => mod.MoviesComponent),
     children: [
+      {
+        path: '',
+        loadComponent: () =>
+          import('./movies/movies.component').then(
+            (mod) => mod.MoviesComponent
+          ),
+      },
       {
         path: ':id',
         loadComponent: () =>
