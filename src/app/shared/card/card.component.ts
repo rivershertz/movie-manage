@@ -1,9 +1,10 @@
 import { Component, input } from '@angular/core';
 import { CardData } from './card.model';
+import { StarsPipe } from '../../movies/stars.pipe';
 
 @Component({
   selector: 'app-card',
-  imports: [],
+  imports: [StarsPipe],
   templateUrl: './card.component.html',
   styleUrl: './card.component.css',
 })

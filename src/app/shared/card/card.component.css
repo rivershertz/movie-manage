@@ -50,6 +50,7 @@
     rgba(0, 0, 0, 0) 100%
   );
   display: flex;
+  gap: 1rem;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -62,17 +63,10 @@
   opacity: 1;
 }
 
-.star-icon {
-  font-size: var(--font-size-3xl);
-  color: var(--rating-color);
-  margin-bottom: 8px;
-}
-
 .rating-value {
   font-size: var(--font-size-2xl);
   font-weight: var(--font-weight-bold);
   color: var(--rating-color);
-  margin-bottom: 8px;
 }
 
 .rating-label {

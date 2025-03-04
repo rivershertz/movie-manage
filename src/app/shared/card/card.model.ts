@@ -2,4 +2,5 @@ export type CardData = {
   title: string;
   description: string;
   imageUrl: string;
+  rating: number;
 };
