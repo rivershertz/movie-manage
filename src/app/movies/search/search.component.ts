@@ -1,4 +1,4 @@
-import { Component, inject, OnInit } from '@angular/core';
+import { Component, inject, OnInit, signal } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import { debounceTime } from 'rxjs';
 import { MoviesService } from '../movies.service';
@@ -11,6 +11,8 @@ import { MoviesService } from '../movies.service';
 })
 export class SearchComponent implements OnInit {
   moviesService = inject(MoviesService);
+  order = signal<'asc' | 'desc'>('asc');
+
   form = new FormGroup({
     search: new FormControl(''),
   });
@@ -25,5 +27,10 @@ export class SearchComponent implements OnInit {
     if (this.form.value.search === '' || this.form.value.search) {
       this.moviesService.filterMovies(this.form.value.search);
     }
+  }
+
+  onSort() {
+    this.order.update((prev) => (prev === 'asc' ? 'desc' : 'asc'));
+    this.moviesService.sortMovies(this.order());
   }
 }

@@ -8,12 +8,12 @@ import { ErrorService } from '../error.service';
   providedIn: 'root',
 })
 export class MoviesService {
+  private BASE_URL = 'http://localHost:3000';
   private _favorites = signal<Movie[]>([]);
   private _movies = signal<Movie[]>([]);
-  private BASE_URL = 'http://localHost:3000';
+  private _filteredMovies = signal<Movie[]>([]);
   private httpClient = inject(HttpClient);
   private errorService = inject(ErrorService);
-  private _filteredMovies = signal<Movie[]>([]);
 
   favorites = this._favorites.asReadonly();
   filteredMovies = this._filteredMovies.asReadonly();
@@ -131,5 +131,20 @@ export class MoviesService {
       m.original_title.toLocaleLowerCase().includes(query.toLocaleLowerCase())
     );
     this._filteredMovies.set(filtered);
+  }
+
+  sortMovies(order: 'asc' | 'desc') {
+    this._filteredMovies.update((prevMovies) => {
+      const copy = [...prevMovies];
+      copy.sort((a, b) => {
+        const titleA = a.original_title;
+        const titleB = b.original_title;
+        if (order === 'asc') {
+          return titleA < titleB ? -1 : 1;
+        }
+        return titleB < titleA ? -1 : 1;
+      });
+      return copy;
+    });
   }
 }

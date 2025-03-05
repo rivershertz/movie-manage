@@ -1,12 +1,13 @@
-<form [formGroup]="form" (submit)="onSubmit()" class="search-container">
+<form [formGroup]="form" (submit)="onSubmit()" class="form">
   <input
     type="text"
+    name="search"
     formControlName="search"
     placeholder="search anything"
-    class="netflix-search-input"
+    class="search-input"
     #searchInput
   />
-  <button class="search-icon-button">
+  <button class="search-icon-button" type="submit">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 24 24"
@@ -19,3 +20,20 @@
     </svg>
   </button>
 </form>
+<button
+  [class]="{ 'button-sort': true, rotate: order() === 'desc' }"
+  (click)="onSort()"
+>
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <path d="M12 8v10" />
+    <path d="M9 17l3 3 3-3" />
+  </svg>
+</button>
