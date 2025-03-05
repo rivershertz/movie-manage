@@ -12,24 +12,23 @@ export class MoviesService {
   private _favorites = signal<Movie[]>([]);
   private _movies = signal<Movie[]>([]);
   private _filteredMovies = signal<Movie[]>([]);
+  private _searchQuery = signal<{ order: Order; query: string } | undefined>(
+    undefined
+  );
   private httpClient = inject(HttpClient);
   private errorService = inject(ErrorService);
 
   order = signal<Order | undefined>(undefined);
   favorites = this._favorites.asReadonly();
   filteredMovies = this._filteredMovies.asReadonly();
+  searchQuery = this._searchQuery.asReadonly();
 
   constructor() {
     effect(() => {
-      this.sortMovies(this.order());
+      if (this.order()) {
+        this.sortMovies(this.order());
+      }
     });
-  }
-
-  init() {
-    const storedOrder = localStorage.getItem('order');
-    if (storedOrder) {
-      this.order.set(storedOrder as Order);
-    }
   }
 
   getMovies<T>(route: string, errorMessage: string, limit?: number) {
@@ -166,10 +165,22 @@ export class MoviesService {
   }
 
   toggleOrder() {
-    this.order.update((prev) => {
-      const updated = prev === 'asc' ? 'desc' : 'asc';
-      localStorage.setItem('order', updated);
-      return updated;
-    });
+    this.order.update((prev) => (prev === 'asc' ? 'desc' : 'asc'));
+  }
+
+  saveSearchQuery(query: string) {
+    localStorage.setItem(
+      'searchQuery',
+      JSON.stringify({ order: this.order(), query })
+    );
+  }
+
+  initSearchQuery() {
+    const stored = localStorage.getItem('searchQuery');
+    if (stored) {
+      const parsedQuery = JSON.parse(stored);
+      this.order.set(parsedQuery.order);
+      this._searchQuery.set(parsedQuery);
+    }
   }
 }

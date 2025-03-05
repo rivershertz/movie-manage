@@ -1,4 +1,4 @@
-import { Component, inject, OnInit, signal } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 import { MoviesService } from './movies.service';
 import { MovieGridComponent } from './movie-grid/movie-grid.component';
@@ -16,7 +16,7 @@ export class MoviesComponent implements OnInit {
 
   ngOnInit(): void {
     this.moviesService.getAllMovies().subscribe(() => {
-      this.moviesService.init();
+      this.moviesService.initSearchQuery();
     });
   }
 }
