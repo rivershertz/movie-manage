@@ -99,6 +99,7 @@ h1 {
   font-size: var(--font-size-4xl);
   margin: 2rem 0;
   text-align: center;
+  font-weight: 300;
 }
 
 button:disabled {

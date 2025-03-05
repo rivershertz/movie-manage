@@ -1,0 +1,51 @@
+.search-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto 2rem auto;
+}
+
+.netflix-search-input {
+  width: 100%;
+  padding: 10px 40px 10px 15px;
+  background-color: rgba(22, 22, 22, 0.9);
+  border: 1px solid #404040;
+  color: #ffffff;
+  font-size: 14px;
+  border-radius: 4px;
+  transition: border-color 0.3s ease;
+}
+
+.netflix-search-input::placeholder {
+  color: #808080;
+}
+
+.netflix-search-input:focus {
+  outline: none;
+  border-color: #ffffff;
+}
+
+.search-icon-button {
+  position: absolute;
+  right: 5px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+}
+
+.search-icon {
+  width: 24px;
+  height: 24px;
+  color: #808080;
+  transition: color 0.3s ease;
+}
+
+.search-icon-button:hover .search-icon {
+  color: #ffffff;
+}
