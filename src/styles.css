@@ -116,5 +116,5 @@ a {
 }
 
 .highlighted:hover {
-  box-shadow: 0px 15px 40px -15px var(--text-primary);
+  box-shadow: 0px 15px 40px -15px var(--text-tertiary);
 }

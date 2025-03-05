@@ -10,9 +10,8 @@ export class TimePipe implements PipeTransform {
 }
 
 function formatMinutesToTime(minutes: number) {
-  const totalMinutes = Math.max(0, Math.floor(Number(minutes)));
-  const hours = Math.floor(totalMinutes / 60);
-  const mins = totalMinutes % 60;
+  const hours = Math.floor(minutes / 60);
+  const mins = minutes % 60;
   const formattedMinutes = mins.toString().padStart(2, '0');
   return `${hours}:${formattedMinutes}`;
 }
