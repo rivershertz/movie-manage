@@ -1,5 +1,5 @@
-import { inject, Injectable, signal } from '@angular/core';
-import { Movie } from './movies.model';
+import { effect, inject, Injectable, signal } from '@angular/core';
+import { Movie, Order } from './movies.model';
 import { HttpClient } from '@angular/common/http';
 import { map, tap } from 'rxjs';
 import { ErrorService } from '../error.service';
@@ -15,8 +15,22 @@ export class MoviesService {
   private httpClient = inject(HttpClient);
   private errorService = inject(ErrorService);
 
+  order = signal<Order | undefined>(undefined);
   favorites = this._favorites.asReadonly();
   filteredMovies = this._filteredMovies.asReadonly();
+
+  constructor() {
+    effect(() => {
+      this.sortMovies(this.order());
+    });
+  }
+
+  init() {
+    const storedOrder = localStorage.getItem('order');
+    if (storedOrder) {
+      this.order.set(storedOrder as Order);
+    }
+  }
 
   getMovies<T>(route: string, errorMessage: string, limit?: number) {
     return this.httpClient
@@ -133,7 +147,10 @@ export class MoviesService {
     this._filteredMovies.set(filtered);
   }
 
-  sortMovies(order: 'asc' | 'desc') {
+  sortMovies(order: Order | undefined) {
+    if (!order) {
+      return;
+    }
     this._filteredMovies.update((prevMovies) => {
       const copy = [...prevMovies];
       copy.sort((a, b) => {
@@ -145,6 +162,14 @@ export class MoviesService {
         return titleB < titleA ? -1 : 1;
       });
       return copy;
+    });
+  }
+
+  toggleOrder() {
+    this.order.update((prev) => {
+      const updated = prev === 'asc' ? 'desc' : 'asc';
+      localStorage.setItem('order', updated);
+      return updated;
     });
   }
 }

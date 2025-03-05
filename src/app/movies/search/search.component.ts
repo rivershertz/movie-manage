@@ -1,6 +1,5 @@
-import { Component, inject, OnInit, signal } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
-import { debounceTime } from 'rxjs';
 import { MoviesService } from '../movies.service';
 
 @Component({
@@ -9,19 +8,13 @@ import { MoviesService } from '../movies.service';
   templateUrl: './search.component.html',
   styleUrl: './search.component.css',
 })
-export class SearchComponent implements OnInit {
+export class SearchComponent {
   moviesService = inject(MoviesService);
-  order = signal<'asc' | 'desc'>('asc');
+  order = this.moviesService.order;
 
   form = new FormGroup({
     search: new FormControl(''),
   });
-
-  ngOnInit(): void {
-    this.form.valueChanges
-      .pipe(debounceTime(500))
-      .subscribe(({ search }) => {});
-  }
 
   onSubmit() {
     if (this.form.value.search === '' || this.form.value.search) {
@@ -30,7 +23,6 @@ export class SearchComponent implements OnInit {
   }
 
   onSort() {
-    this.order.update((prev) => (prev === 'asc' ? 'desc' : 'asc'));
-    this.moviesService.sortMovies(this.order());
+    this.moviesService.toggleOrder();
   }
 }

@@ -12,3 +12,5 @@ export type Movie = {
   adult: 0 | 1;
   duration: number;
 };
+
+export type Order = 'asc' | 'desc';
