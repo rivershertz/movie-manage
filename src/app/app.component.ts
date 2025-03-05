@@ -12,5 +12,6 @@ import { MoviesService } from './movies/movies.service';
 })
 export class AppComponent {
   title = 'movie-manage';
+  year = new Date().getFullYear();
   error = inject(ErrorService).error;
 }
