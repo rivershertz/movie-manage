@@ -11,18 +11,18 @@ Complete this task in approximately 6 hours. The application should showcase the
 ### Routes & Lazy Loading
 
 - Create the following routes:
-  - `/dashboard` - Main dashboard showing movie stats
-  - `/movies` - List of all movies
-  - `/movies/:id` - Movie details page
-  - `/favorites` - User's favorite movies
+  - `/dashboard` - Main dashboard showing movie stats √
+  - `/movies` - List of all movies √
+  - `/movies/:id` - Movie details page √
+  - `/favorites` - User's favorite movies √
   - `/categories` - Movie categories
-- Implement lazy loading for all feature modules
+- Implement lazy loading for all feature modules √
 
 ### Empty States
 
 - Create appropriate empty states for:
-  - When no movies are found in a search
-  - When the favorites list is empty
+  - When no movies are found in a search √
+  - When the favorites list is empty √
   - When a category contains no movies
 
 ### Pipes
